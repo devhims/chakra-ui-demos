@@ -1,4 +1,4 @@
-## Demos built Chakra UI V1.3
+## Demos built with Chakra UI V1.3
 
 1. Signup & Login Forms
 
