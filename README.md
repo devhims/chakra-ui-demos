@@ -2,4 +2,8 @@
 
 1. Signup & Login Forms
 
-<img src="./screenshots/light_signup.png" alt="Markdown Monster icon" style="float: left; margin-right: 10px;" width='200px' />
+<img src="./screenshots/light_signup.png" alt="light theme signup" style="float: left; margin-right: 10px;" width='400px' />
+
+<img src="./screenshots/light_login.png" alt="light theme login" style="float: left; margin-right: 10px;" width='400px' />
+
+<img src="./screenshots/dark_signup.png" alt="dark theme login" style="float: left; margin-right: 10px;" width='400px' />
