@@ -15,7 +15,14 @@ import theme from '../theme';
 
 const Form = () => {
   return (
-    <Box bgColor={theme.bgColor} w="350px" p={3} boxShadow="xl" rounded="lg">
+    <Box
+      bgColor={theme.bgColor}
+      w="350px"
+      p={3}
+      shadow="base"
+      rounded="lg"
+      my={4}
+    >
       <ThemeSelector />
       <Image src={'./logo512.png'} w="80px" mx="auto" my={4} />
       <Tabs isFitted variant="enclosed-colored">
