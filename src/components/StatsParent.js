@@ -9,7 +9,7 @@ const data = [
 
 const CardParent = () => {
   return (
-    <Box as="section" bg={mode('gray.50', 'gray.800')} p="10" my={4}>
+    <Box as="section" p="10" my={4}>
       <Box maxW="7xl" mx="auto" px={{ base: '6', md: '8' }}>
         <SimpleGrid columns={{ base: 1, md: 3 }} spacing="10">
           {data.map((stat, id) => (

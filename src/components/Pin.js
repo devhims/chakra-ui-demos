@@ -42,7 +42,6 @@ const Pin = () => {
             type="alphanumeric"
             onComplete={handleComplete}
             focusBorderColor={mode('blue.400', 'whiteAlpha')}
-            autoFocus
           >
             {Array(6)
               .fill('')

@@ -2,16 +2,17 @@ import { Flex, Divider, VStack } from '@chakra-ui/react';
 import Form from './components/Form';
 import Pin from './components/Pin';
 import InfoModal from './components/InfoModal';
-import CardParent from './components/CardParent';
+import CardParent from './components/StatsParent';
 import SiteBanner from './components/SiteBanner';
 import Alert from './components/Alert';
 import Footer from './components/Footer';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <>
       <Alert />
-      <Divider />
+      <NavBar />
       <Flex
         direction="column"
         align="center"
@@ -30,7 +31,6 @@ function App() {
       </Flex>
       <Footer />
     </>
-
   );
 }
 

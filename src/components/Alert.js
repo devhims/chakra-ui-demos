@@ -12,7 +12,6 @@ const Alert = () => {
       bg={useColorModeValue('blue.600', 'blue.400')}
       justify="center"
       align={{ base: 'flex-start', sm: 'center' }}
-      mb={4}
     >
       <Stack
         direction="row"
