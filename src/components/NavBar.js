@@ -22,7 +22,7 @@ const NavBar = (props) => {
   return (
     <Flex
       as="nav"
-      align="center"
+      align="baseline"
       justify="space-between"
       wrap="wrap"
       padding="1.5rem"
@@ -31,11 +31,9 @@ const NavBar = (props) => {
       color="white"
       {...props}
     >
-      <Flex align="center" mr={5}>
-        <Heading as="h1" size="lg" letterSpacing={'-.1rem'}>
-          Chakra UI
-        </Heading>
-      </Flex>
+      <Heading as="h1" size="lg" letterSpacing={'-.1rem'} mr={5}>
+        Chakra UI Demos
+      </Heading>
 
       <Box display={{ base: 'block', md: 'none' }} onClick={handleToggle}>
         <svg
@@ -52,7 +50,7 @@ const NavBar = (props) => {
       <Box
         display={{ base: show ? 'block' : 'none', md: 'flex' }}
         width={{ base: 'full', md: 'auto' }}
-        alignItems="center"
+        justifyContent="flex-end"
         flexGrow={1}
       >
         <MenuItems>Docs</MenuItems>

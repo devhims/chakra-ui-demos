@@ -7,6 +7,8 @@ import SiteBanner from './components/SiteBanner';
 import Alert from './components/Alert';
 import Footer from './components/Footer';
 import NavBar from './components/NavBar';
+import TableSimple from './components/TableSimple';
+import AirBnb from './components/AirbnbCard';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         minH="100vh"
         w="full"
       >
+        <AirBnb />
+        <Divider />
         <SiteBanner />
         <Divider />
         <Form />
@@ -27,6 +31,8 @@ function App() {
         <Pin />
         <Divider />
         <CardParent />
+        <Divider />
+        <TableSimple />
         <Divider />
       </Flex>
       <Footer />
