@@ -1,11 +1,11 @@
 ## Demos built with Chakra UI V1.3
 
+:zap: [Live Link](https://chakra-ui-demos.netlify.app/)
+
 1. Signup & Login Forms
+2. Pin Input
+3. Alert
+4. Main Banner
+5. Footer
 
-<p float="left">
-<img src="./screenshots/light_signup.png" alt="light theme signup" style="margin-right: 10px;" width='300px' />
-
-<img src="./screenshots/light_login.png" alt="light theme login" style="margin-right: 10px;" width='300px' />
-
-<img src="./screenshots/dark_signup.png" alt="dark theme login" style="margin-right: 10px;" width='300px' />
-</p>
+Everything is dark mode compatible.
