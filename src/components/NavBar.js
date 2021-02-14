@@ -8,6 +8,8 @@ import {
   useColorModeValue as mode,
 } from '@chakra-ui/react';
 
+import ThemeSelector from './ThemeSelector';
+
 const MenuItems = ({ children }) => (
   <Text mt={{ base: 4, md: 0 }} mr={6} display="block">
     {children}
@@ -48,14 +50,16 @@ const NavBar = (props) => {
       </Box>
 
       <Box
-        display={{ base: show ? 'block' : 'none', md: 'flex' }}
+        display={{ base: show ? 'flex' : 'none', md: 'flex' }}
         width={{ base: 'full', md: 'auto' }}
-        justifyContent="flex-end"
+        justifyContent={{ base: 'flex-start', md: 'flex-end' }}
+        alignItems="baseline"
         flexGrow={1}
       >
         <MenuItems>Docs</MenuItems>
         <MenuItems>Examples</MenuItems>
         <MenuItems>Blog</MenuItems>
+        <ThemeSelector />
       </Box>
 
       <Box

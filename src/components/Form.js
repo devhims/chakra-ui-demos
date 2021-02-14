@@ -10,7 +10,6 @@ import {
 
 import SignUp from './SignUp';
 import SignIn from './SignIn';
-import ThemeSelector from './ThemeSelector';
 import theme from '../theme';
 
 const Form = () => {
@@ -23,7 +22,6 @@ const Form = () => {
       rounded="lg"
       my={4}
     >
-      <ThemeSelector />
       <Image src={'./logo512.png'} w="80px" mx="auto" my={4} />
       <Tabs isFitted variant="enclosed-colored">
         <TabList mb="1em">

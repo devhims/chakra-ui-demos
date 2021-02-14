@@ -9,5 +9,7 @@
 5. Stats
 6. Pin Input
 7. Footer
+8. Table
+9. AirBnB card
 
 Everything is dark mode compatible.
