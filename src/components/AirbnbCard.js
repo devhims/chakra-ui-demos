@@ -1,9 +1,16 @@
-import { Box, Image, Flex, Badge, Text } from '@chakra-ui/react';
+import {
+  Box,
+  Image,
+  Flex,
+  Badge,
+  Text,
+  useColorModeValue as mode,
+} from '@chakra-ui/react';
 import { MdStar } from 'react-icons/md';
 
 const AirBnb = () => {
   return (
-    <Box p="5" maxW="320px" borderWidth="1px" m={4}>
+    <Box p="5" maxW="320px" borderWidth="1px" m={4} borderRadius="md">
       <Image borderRadius="md" src="https://bit.ly/2k1H1t6" />
       <Flex align="baseline" mt={2}>
         <Badge colorScheme="pink">Plus</Badge>
@@ -12,7 +19,7 @@ const AirBnb = () => {
           textTransform="uppercase"
           fontSize="sm"
           fontWeight="bold"
-          color="pink.800"
+          color={mode('pink.800', 'pink.300')}
         >
           Verified &bull; Cape Town
         </Text>

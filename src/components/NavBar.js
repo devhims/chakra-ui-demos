@@ -29,7 +29,7 @@ const NavBar = (props) => {
       wrap="wrap"
       padding="1.5rem"
       // bg={'linkedin.500'}
-      bgColor={mode('linkedin.800', 'linkedin.500')}
+      bgColor={mode('mainBlue.600', 'mainBlue.400')}
       color="white"
       {...props}
     >
@@ -55,6 +55,7 @@ const NavBar = (props) => {
         justifyContent={{ base: 'flex-start', md: 'flex-end' }}
         alignItems="baseline"
         flexGrow={1}
+        flexWrap="wrap"
       >
         <MenuItems>Docs</MenuItems>
         <MenuItems>Examples</MenuItems>
@@ -67,7 +68,7 @@ const NavBar = (props) => {
         mt={{ base: 4, md: 0 }}
       >
         <Button bg="transparent" border="1px">
-          Create account
+          Log In
         </Button>
       </Box>
     </Flex>

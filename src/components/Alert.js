@@ -9,7 +9,7 @@ const Alert = () => {
       direction={{ base: 'column', sm: 'row' }}
       px={{ base: '3', md: '6', lg: '8' }}
       color="white"
-      bg={useColorModeValue('blue.600', 'blue.400')}
+      bg={useColorModeValue('mainBlue.700', 'mainBlue.600')}
       justify="center"
       align={{ base: 'flex-start', sm: 'center' }}
     >

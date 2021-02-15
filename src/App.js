@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import NavBar from './components/NavBar';
 import TableSimple from './components/TableSimple';
 import AirBnb from './components/AirbnbCard';
+import SelectOptions from './components/SelectOptions';
+import BlogList from './components/BlogList';
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
         align="center"
         justify="space-evenly"
         minH="100vh"
-        w="full"
+        minW="100vw"
       >
+        <BlogList />
+        <Divider />
         <AirBnb />
         <Divider />
         <SiteBanner />
@@ -33,6 +37,8 @@ function App() {
         <CardParent />
         <Divider />
         <TableSimple />
+        <Divider />
+        <SelectOptions />
         <Divider />
       </Flex>
       <Footer />
