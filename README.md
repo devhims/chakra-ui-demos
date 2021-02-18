@@ -15,4 +15,8 @@
 11. Select
 12. Toast
 
+13. Tooltip
+14. Badge
+15. Tag
+
 Everything is dark mode compatible.
