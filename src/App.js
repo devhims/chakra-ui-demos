@@ -16,16 +16,19 @@ import HalfLife from './components/HalfLife';
 import ComponentPanel from './components/ComponentPanel';
 
 import Instructions from './pages/Instructions';
+import Landing from './pages/Landing';
+import Header from './components/ui/Header';
+import TableLayout from './pages/TableLayout';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
-      <Alert />
-      <NavBar />
       <Switch>
         <Route path="/" exact>
+          <Alert />
+          <NavBar />
           <Flex
             direction="column"
             align="center"
@@ -56,12 +59,18 @@ function App() {
             <ComponentPanel />
             <Divider />
           </Flex>
+          <Footer />
         </Route>
         <Route path="/ins">
           <Instructions />
         </Route>
+        <Route path="/landing">
+          <Landing />
+        </Route>
+        <Route path="/table">
+          <TableLayout />
+        </Route>
       </Switch>
-      <Footer />
     </Router>
   );
 }
