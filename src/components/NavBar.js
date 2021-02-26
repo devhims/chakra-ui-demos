@@ -8,7 +8,7 @@ import {
   useColorModeValue as mode,
 } from '@chakra-ui/react';
 
-import ThemeSelector from './ThemeSelector';
+import DarkModeSwitch from './DarkModeSwitch';
 
 const MenuItems = ({ children }) => (
   <Text mt={{ base: 4, md: 0 }} mr={6} display="block">
@@ -60,7 +60,7 @@ const NavBar = (props) => {
         <MenuItems>Docs</MenuItems>
         <MenuItems>Examples</MenuItems>
         <MenuItems>Blog</MenuItems>
-        <ThemeSelector />
+        <DarkModeSwitch />
       </Box>
 
       <Box
