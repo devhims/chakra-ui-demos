@@ -1,6 +1,6 @@
-// 1. import `extendTheme` function
 import { extendTheme } from '@chakra-ui/react';
 import { mode } from '@chakra-ui/theme-tools';
+import { projectIcons } from './assets/icons';
 
 const theme = extendTheme({
   config: { initialColorMode: 'light', useSystemColorMode: false },
@@ -62,13 +62,17 @@ const theme = extendTheme({
       900: '#701a75',
     },
   },
+  // fonts: {
+  //   heading: 'Inter, sans-serif',
+  //   body: 'Inter, sans-serif',
+  // },
   fonts: {
-    heading: 'Inter, sans-serif',
-    body: 'Inter, sans-serif',
+    heading: 'Circular, Helvetica, sans-serif',
+    body: 'Circular, Helvetica, sans-serif',
+  },
+  icons: {
+    ...projectIcons,
   },
 });
-
-// 3. extend the theme
-// const theme = extendTheme({ config });
 
 export default theme;

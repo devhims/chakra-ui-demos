@@ -14,6 +14,9 @@ import BlogList from './components/BlogList';
 import CardAppointment from './components/CardAppointment';
 import HalfLife from './components/HalfLife';
 import ComponentPanel from './components/ComponentPanel';
+import FAQ from './components/FAQ';
+import Prevention from './components/Prevention';
+import LiveData from './components/LiveData';
 
 import Instructions from './pages/Instructions';
 import Landing from './pages/Landing';
@@ -57,6 +60,12 @@ function App() {
             <HalfLife />
             <Divider />
             <ComponentPanel />
+            <Divider />
+            <FAQ />
+            <Divider />
+            <Prevention />
+            <Divider />
+            <LiveData />
             <Divider />
           </Flex>
           <Footer />
