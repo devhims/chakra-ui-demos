@@ -17,6 +17,7 @@ import ComponentPanel from './components/ComponentPanel';
 import FAQ from './components/FAQ';
 import Prevention from './components/Prevention';
 import LiveData from './components/LiveData';
+import Definition from './components/Definition';
 
 import Instructions from './pages/Instructions';
 import Landing from './pages/Landing';
@@ -66,6 +67,8 @@ function App() {
             <Prevention />
             <Divider />
             <LiveData />
+            <Divider />
+            <Definition />
             <Divider />
           </Flex>
           <Footer />
