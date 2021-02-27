@@ -4,7 +4,7 @@ import ContentWrapper from './ContentWrapper';
 // import useTranslator from '../../useTranslator';
 // import { AppContext } from '../../AppProvider';
 
-import LiveDataFeed from '../data/LiveDataFeed';
+import LiveDataFeed from '../../data/LiveDataFeed';
 
 const LiveData = ({ ...rest }) => {
   //   const { liveData } = useContext(AppContext);

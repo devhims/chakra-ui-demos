@@ -1,7 +1,7 @@
 import { Icon, Stack, Text, Image } from '@chakra-ui/react';
 import ContentWrapper from './ContentWrapper';
 
-import PreventionData from '../data/PreventionData';
+import PreventionData from '../../data/PreventionData';
 
 const Prevention = () => {
   return (

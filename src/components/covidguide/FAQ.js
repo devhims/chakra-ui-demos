@@ -9,7 +9,7 @@ import {
   Text,
 } from '@chakra-ui/react';
 
-import FAQData from '../data/FAQData';
+import FAQData from '../../data/FAQData';
 
 const FAQ = ({ ...rest }) => {
   return (
