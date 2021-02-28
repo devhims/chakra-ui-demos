@@ -3,7 +3,7 @@ import ContentWrapper from './ContentWrapper';
 
 const Definition = ({ ...rest }) => {
   return (
-    <ContentWrapper heading="What is Corona Virus" {...rest} mx={3} my={3}>
+    <ContentWrapper heading="What is Corona Virus" {...rest} mx={3}>
       <Box maxW="700px">
         <Text px={6} py={2}>
           Coronavirus (COVID-19) is a infectious disease caused by a new virus

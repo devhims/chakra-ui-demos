@@ -7,7 +7,6 @@ const Prevention = () => {
   return (
     <ContentWrapper
       id="Prevention"
-      my={3}
       heading={PreventionData.heading}
       maxW="700px"
       mx={3}

@@ -13,7 +13,7 @@ import FAQData from '../../data/FAQData';
 
 const FAQ = ({ ...rest }) => {
   return (
-    <Stack id="FAQs" spacing={6} {...rest} maxW="700px" mx={3} my={3}>
+    <Stack id="FAQs" spacing={6} {...rest} maxW="700px" mx={3}>
       <Text fontSize="lg" textAlign="center" fontWeight="extrabold">
         {FAQData.heading}
       </Text>

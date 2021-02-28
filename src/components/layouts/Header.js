@@ -8,7 +8,7 @@ import {
   useTheme,
 } from '@chakra-ui/react';
 
-import { FiCloudDrizzle } from 'react-icons/fi';
+import { WhatsApp, Corona } from '../../assets/IconsV1';
 
 const Header = () => {
   return (
@@ -44,7 +44,7 @@ export function Logo({ ...rest }) {
       fontWeight="extrabold"
       {...rest}
     >
-      <Icon as={FiCloudDrizzle} boxSize={6} />
+      <Corona boxSize={8} />
       <Box>
         <span style={{ color: colors.green['500'] }}>Covid</span>guide.africa
       </Box>
@@ -69,7 +69,7 @@ function HeaderItemWrapper({ children, onClick, ...rest }) {
 function WhatsappButton({ ...rest }) {
   return (
     <HeaderItemWrapper {...rest}>
-      <Icon boxSize={5} as={FiCloudDrizzle} />
+      <WhatsApp boxSize={6} />
     </HeaderItemWrapper>
   );
 }

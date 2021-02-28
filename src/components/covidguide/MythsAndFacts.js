@@ -12,7 +12,6 @@ const MythsAndFacts = ({ ...rest }) => {
       rounded="lg"
       {...rest}
       maxW="700px"
-      my={3}
     >
       <Text fontSize="lg" fontWeight="semibold">
         Myths & facts

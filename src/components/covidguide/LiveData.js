@@ -12,7 +12,7 @@ const LiveData = ({ ...rest }) => {
   //   const dataText = t('LiveData', { returnObjects: true });
   const colorCoding = ['yellow', 'green', 'red'];
   return (
-    <ContentWrapper id="Live Data" heading="Live Data" {...rest} my={3}>
+    <ContentWrapper id="Live Data" heading="Live Data" {...rest}>
       <Box px={[4, 6]} py={{ base: '2', sm: '3' }}>
         <SimpleGrid columns={[1, 3]} spacing={[4, 6]}>
           {LiveDataFeed.map(({ data, value }, index) => (

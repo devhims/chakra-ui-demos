@@ -4,26 +4,33 @@ import { Box, Button, Icon, SimpleGrid, Stack, Text } from '@chakra-ui/react';
 // import { AppContext } from '../AppProvider';
 
 import { FiCloudDrizzle } from 'react-icons/fi';
+import {
+  FacebookIcon,
+  TwitterIcon,
+  LinkedinIcon,
+  WhatsAppIcon,
+  Corona,
+} from '../../assets/IconsV1';
 
 const shareButtons = [
   {
     button: 'Facebook',
-    icon: <FiCloudDrizzle />,
+    icon: <FacebookIcon pb={1} boxSize={5} />,
     link: 'https://www.facebook.com/sharer/sharer.php?u=www.covidguide.africa',
   },
   {
     button: 'LinkedIn',
-    icon: <FiCloudDrizzle />,
+    icon: <LinkedinIcon pb={1} boxSize={5} />,
     link: 'https://www.facebook.com/sharer/sharer.php?u=www.covidguide.africa',
   },
   {
     button: 'Twitter',
-    icon: <FiCloudDrizzle />,
+    icon: <TwitterIcon pb={1} boxSize={5} />,
     link: 'https://www.facebook.com/sharer/sharer.php?u=www.covidguide.africa',
   },
   {
     button: 'WhatsApp',
-    icon: <FiCloudDrizzle />,
+    icon: <WhatsAppIcon pb={1} boxSize={5} />,
     link: 'https://www.facebook.com/sharer/sharer.php?u=www.covidguide.africa',
   },
 ];
@@ -36,8 +43,8 @@ const Footer = () => {
     <Box bg="green.100" minH={360} px={6}>
       <Box maxW="1680px" mx="auto" pb={10}>
         <Stack spacing={[8, 12]} mx="auto" maxW="720px" align="center">
-          <Box rounded="full" p={10} bg="white" mt={-20} textAlign="center">
-            <Icon as={FiCloudDrizzle} boxSize={6} />
+          <Box rounded="full" p={7} bg="white" mt={-14} textAlign="center">
+            <Corona boxSize={12} />
           </Box>
           <Text fontSize="xl" fontWeight="medium">
             Share with family and friends

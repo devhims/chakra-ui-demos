@@ -5,7 +5,7 @@ import { SymptomsInfo, SymptomsAction } from '../../data/SymptomsInfo';
 
 const Symptoms = ({ ...rest }) => {
   return (
-    <Stack spacing={8} id="Symptoms" my={3}>
+    <Stack spacing={8} id="Symptoms">
       <ContentWrapper heading="Symtoms of Corona Virus" {...rest}>
         <Box px={6} py={3}>
           <SimpleGrid columns={[2, 3]} spacing={6}>

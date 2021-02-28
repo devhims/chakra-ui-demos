@@ -18,7 +18,7 @@ const QuickActions = ({ ...rest }) => {
   //   }
 
   return (
-    <SimpleGrid columns={[2, 4]} spacing={10} {...rest} my={3} mx={3}>
+    <SimpleGrid columns={[2, 4]} spacing={10} {...rest} mx={3}>
       {QuickActionsData.map(({ icon, title }) => (
         <Box
           p={3}
