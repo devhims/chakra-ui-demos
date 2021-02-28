@@ -14,13 +14,8 @@ import BlogList from './components/BlogList';
 import CardAppointment from './components/CardAppointment';
 import HalfLife from './components/HalfLife';
 import ComponentPanel from './components/ComponentPanel';
-import FAQ from './components/covidguide/FAQ';
-import Prevention from './components/covidguide/Prevention';
-import LiveData from './components/covidguide/LiveData';
-import Definition from './components/covidguide/Definition';
-import Jumbotron from './components/covidguide/Jumbotron';
-import Symptoms from './components/covidguide/Symptoms';
-import MythsAndFacts from './components/covidguide/MythsAndFacts';
+
+import HomePage from './components/covidguide';
 
 import Instructions from './pages/Instructions';
 import Landing from './pages/Landing';
@@ -65,20 +60,6 @@ function App() {
             <Divider />
             <ComponentPanel />
             <Divider />
-            <FAQ />
-            <Divider />
-            <Prevention />
-            <Divider />
-            <LiveData />
-            <Divider />
-            <Definition />
-            <Divider />
-            <Jumbotron />
-            <Divider />
-            <Symptoms />
-            <Divider />
-            <MythsAndFacts />
-            <Divider />
           </Flex>
           <Footer />
         </Route>
@@ -90,6 +71,9 @@ function App() {
         </Route>
         <Route path="/table">
           <TableLayout />
+        </Route>
+        <Route path="/covid">
+          <HomePage />
         </Route>
       </Switch>
     </Router>
