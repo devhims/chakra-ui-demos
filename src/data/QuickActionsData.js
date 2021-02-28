@@ -1,23 +1,29 @@
 import { MdContactMail } from 'react-icons/md';
+import {
+  TestingCenters,
+  SymptomsChecker,
+  EmergencyNumbers,
+  DoctorChat,
+} from '../assets/IconsV1';
 
 const QuickActions = [
   {
-    icon: MdContactMail,
+    icon: TestingCenters,
     title: 'Testing Centers',
     destination: 'openChat',
   },
   {
-    icon: MdContactMail,
+    icon: SymptomsChecker,
     title: 'Symptom Checker',
     destination: 'openChat',
   },
   {
-    icon: MdContactMail,
+    icon: EmergencyNumbers,
     title: 'Emergency Numbers',
     destination: 'openChat',
   },
   {
-    icon: MdContactMail,
+    icon: DoctorChat,
     title: 'Chat with a Doctor',
     destination: 'openChat',
   },

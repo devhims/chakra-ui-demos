@@ -34,7 +34,7 @@ const QuickActions = ({ ...rest }) => {
           }}
         >
           <Stack spacing={3} align="center">
-            <Icon as={icon} color="green.500" boxSize={6} />
+            <Icon as={icon} boxSize={12} />
             <Text textAlign="center">{title}</Text>
           </Stack>
         </Box>

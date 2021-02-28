@@ -1,4 +1,9 @@
 import { MdContactMail } from 'react-icons/md';
+import {
+  SymptomsChecker,
+  EmergencyNumbers,
+  DoctorChat,
+} from '../assets/IconsV1';
 
 export const SymptomsInfo = [
   {
@@ -38,17 +43,17 @@ export const SymptomsInfo = [
 export const SymptomsAction = [
   {
     name: 'Try Symptoms Checker',
-    icon: MdContactMail,
+    icon: SymptomsChecker,
     buttonText: 'Try Now',
   },
   {
     name: 'Call Emergency lines',
-    icon: MdContactMail,
+    icon: EmergencyNumbers,
     buttonText: 'Find Here',
   },
   {
     name: 'Chat with a Doctor',
-    icon: MdContactMail,
+    icon: DoctorChat,
     buttonText: 'Chat Here',
   },
 ];

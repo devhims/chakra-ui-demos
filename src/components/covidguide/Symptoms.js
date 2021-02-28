@@ -34,14 +34,16 @@ const Symptoms = ({ ...rest }) => {
           {SymptomsAction.map(({ name, icon, buttonText }) => (
             <Stack
               key={name}
-              justifyItems="space-between"
+              justify="space-evenly"
+              align="center"
               spacing={6}
               py={8}
               px={6}
               bg="white"
               rounded="lg"
+              textAlign="center"
             >
-              <Icon as={icon} boxSize={6} />
+              <Icon as={icon} boxSize={10} />
               <Text>{name}</Text>
 
               <Button variant="outline" variantColor="green">

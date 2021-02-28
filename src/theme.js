@@ -70,9 +70,6 @@ const theme = extendTheme({
     heading: 'Circular, Helvetica, sans-serif',
     body: 'Circular, Helvetica, sans-serif',
   },
-  icons: {
-    ...projectIcons,
-  },
 });
 
 export default theme;
